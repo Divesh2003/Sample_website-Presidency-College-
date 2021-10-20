@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Form</title>
+</head>
+<body style="background-color: grey;">
+    <div class="head">
+        <img src="/Library Form/Logo.png" alt="404" style="width: 300px; justify-content: center; margin: 10px 500px;">
+        <h2 style="color: chartreuse; text-decoration: underline; text-align: center; font-size: 50px;">Welcome To Presidency College (Library Form)</h2>
+    </div>
+
+    <fieldset style="background-color: rgb(204, 238, 227); margin: 50px 120px; color: brown; font-weight: bolder;">
+        <form action="dm.php" method="get">
+            <br>
+            <label for="">Registration Number *: &nbsp;<input type="text" placeholder="eg: 21BCAXXX"></label>
+            <br>
+            <br>
+            <label for="name">Name *: &nbsp;<input type="text" name="fname" id="fname" placeholder="Your Name"></label>
+            <br>
+            <br>
+            <label for="course">Course *: <select name="course" id="course">
+                <option value="select" selected>---Select Your Course---</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BA">BA</option>
+                <option value="Bcom">BCOM</option>
+            </select>
+            </label>
+            <br>
+            <br>
+            <label for="paddress">Permanent Address *: &nbsp; <br><textarea name="address" id="paddress" cols="30" rows="10"></textarea></label>
+            <br>
+            <br>
+            <label for="taddress">Communication Address *: &nbsp; <br><textarea name="address" id="taddress" cols="30" rows="10"></textarea></label>
+            <br>
+            <br>
+            <label for="mobile">Mobile Number *: &nbsp;<input type="number" name="mobile" id="mobile" placeholder="eg: 1234567890" ></label>
+            <br>
+            <br>
+            <label for="">Email Id *: &nbsp;<input type="email" name="email" id="email" placeholder="sample@gmail.com"></label>
+            <br>
+            <br>
+            <label for="">Blood Group *: &nbsp;<input type="text" name="blood" id="blood" placeholder="eg: O+"></label>
+            <br>
+            <br>
+            <label for="sign">Signature *: <br><textarea name="sign" id="sign" cols="30" rows="10"></textarea></label>
+            <br>
+            <input type="button" value="Submit" style="width: 1050px; height: 50px; font-size: 30px; font-weight: bold; color: blue; background-color: darkgoldenrod; cursor: pointer;">
+        </form>
+    </fieldset>
+</body>
+</html>

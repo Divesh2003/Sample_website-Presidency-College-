@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: greenyellow;
+}
+
+.mainhead{
+    color: blueviolet;
+    
+}
+
+.container{
+    margin: 170px 320px;
+}
+
+.head{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+input[type="email"],
+input[type="password"]{
+    background-color: darkgray;
+    color: aqua;
+
+}
+
+input[type="button"]{
+    color:goldenrod;
+    background-color: blueviolet;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.email , .password{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.create{
+    color: black;
+}
+
+input[type="button"]:hover{
+    background-color: red;
+    cursor: pointer;
+    color: aquamarine;
+}
+
+p a{
+    color: aqua;
+}
+
+p{
+    text-align: center;
+}
+
+footer p{
+    color:greenyellow;
+    text-align: center;
+    background-color: black;
+}
+
+img{
+    width: 500px;
+    /* justify-content: center; */
+    margin: 0 410px;
+}

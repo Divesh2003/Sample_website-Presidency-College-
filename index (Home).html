@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidency College</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        img{
+    justify-content: left;
+    width: 280px;
+    display: inline-block;
+    margin: 0;
+}
+
+.searchbox{
+    float: right;
+    margin: -125px 0;
+    /* background: linear-gradient(rgb(121, 216, 153), white); */
+    /* width: 250px;
+    height: 80px;
+    padding: 0; */
+    /* margin-top: 0; */
+    margin: -120px 0;
+}
+.container{
+    width: 2000px;
+    height: auto;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+.menu{
+    height: 55px;
+    background: linear-gradient(rgb(211, 211, 81), yellow);
+    padding: 9px 0;
+}
+
+.motto {
+    text-align: center;
+}
+
+
+#motto{
+    color: darkgoldenrod;
+    margin: -1 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu ul li{
+    float: left;
+    padding: 0 90px;
+    height: 30px;
+    border-right: 1px solid blue;
+}
+
+.menu ul li:last-child{
+    border-right: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: blue;
+    line-height: 30px;
+    transition: width 3px 0.3 ease-in;
+}
+
+.menu ul li a:hover, .menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    height: 5+px;
+    padding: 5px;
+    font-size: 15px;
+    color: brown;
+    background: green url('/search.png') right center    no-repeat;
+    border: 1px solid yellow;
+}
+
+.submit{
+    float: right;
+    padding: 1px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(158, 243, 0);
+}
+
+.clear{
+    clear: both;
+}
+.searchbox ul li a{
+    text-decoration: none;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: rgb(255, 161, 21);
+    font-weight: normal;
+    font-weight: bolder;
+}
+
+body{
+    background-color: rgb(210, 241, 247);
+}
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img src="/Home/Logo.png" alt="404">
+    </div>
+    <div class="motto">
+        <h2 id="motto">
+            Gain More Knowledge, Reach Greater Heights
+        </h2>
+    </div>
+    <div class="header">
+        <div class="searchbox">
+            <form action="dm.php" method="get">
+                <input type="text" name="search" id="search" placeholder="Search Here">
+                <input type="button" value="Go" class="submit">
+            </form>
+        </div>
+        <div class="clear">
+
+        </div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="" >Home</a></li>
+            <li><a href="/Login Page/index.html" target="_blank">Login</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="/Library Form/index.html" target="_blank">Library</a></li>
+            <li><a href="/Time Table/index.html" target="_blank">Time Table</a></li>
+        </ul>
+    </div>
+    
+    <img src="/Home/Home_banner bg.jpg" id="banner" style="width: 1334px;" alt="404">
+    
+    <div id="introduction">
+        <p>Presidency College is a private professional college in Bangalore, India. It was founded by The Presidency Group of Institutions. The Presidency Group was established in the year 1976 and today it consists of seven schools, two colleges and one university, and has been established for three decades. It is an NIRF Ranked College in 2017, was re-accredited by NAAC with 'A+', and affiliated to Bengaluru City University and approved by AICTE, New Delhi.</p>
+    </div>
+
+    <div class="undercourses">
+        <h4 id="under" style="font-size: 40px; color: blue;  text-align: left; text-decoration: underline;">Undergraduate Courses</h4>
+        <ul style="text-align: left; font-size: 20px;">
+            <li><a href="#" style="color: crimson;">Bachelor's Of Arts (Jounalism)</a></li>
+            <li><a href="#" style="color: crimson;">Bachelor's Of Computer Applications (BCA)</a></li>
+            <li><a href="#" style="color: crimson;">Bachelor of Commerce (B. Com)</a></li>
+            <li><a href="#" style="color: crimson;">Bachelor of Business Administration (BBA)</a></li>
+        </ul>
+    </div>
+    <div class="postcourses">
+        <h4 style="color: blue; font-size: 40px;text-align: right; margin-right: 9px; text-decoration: underline;margin-top: -205px; ">Postgraduate Courses</h4>
+        <ul style="text-align: right; margin-right: 9px; font-size: 20px;">
+            <li><a href="#" style="color: crimson;">Master of Commerce (M. Com)</a></li>
+            <li><a href="#" style="color: crimson;">Master of Commerce in Finance & Accounting (M. Com FA)</a></li>
+            <li><a href="#" style="color: crimson;">Master in Business Administration (MBA)</a></li>
+            <li><a href="#" style="color: crimson;">PhD - Management</a></li>
+        </ul>
+    </div>
+
+    <div class="otherdetails" style="color: coral; font-weight: bold; text-align: center; font-size: 25px;">
+        Type:  Private<br>
+        Established: 2001<br>
+        Chairman: Nissar Ahmed<br>
+        Students: 4000+<br>
+        Location: Bangalore, India<br>
+        ECoordinates: 13°3′1.98″N 77°35′52.88″E<br>
+        Campus: Urban<br>
+        Affiliations: Bengaluru City University<br>
+        Website:<a href="https://presidencycollege.ac.in">presidencycollege.ac.in</a><br>
+    </div>
+
+</body>
+
+</html>

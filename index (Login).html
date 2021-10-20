@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 246, 122);
+}
+
+.mainhead{
+    color: blueviolet;
+    
+}
+
+.container{
+    margin: 170px 320px;
+}
+
+.head{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+input[type="email"],
+input[type="password"]{
+    background-color: darkgray;
+    color: aqua;
+
+}
+
+input[type="button"]{
+    color:goldenrod;
+    background-color: blueviolet;
+    text-align: center;
+    width: 700px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.email , .password{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.create{
+    color: black;
+}
+
+input[type="button"]:hover{
+    background-color: red;
+    cursor: pointer;
+    color: aquamarine;
+}
+
+p a{
+    color: aqua;
+}
+
+p{
+    text-align: center;
+}
+
+footer p{
+    color:greenyellow;
+    text-align: center;
+    background-color: black;
+}
+
+img{
+    width: 500px;
+    /* justify-content: center; */
+    margin: 0 410px;
+}
+    </style>
+</head>
+<body>
+    <img src="/Login Page/Logo.png" alt="404">
+    <div class="head">
+        <h1 class="mainhead">Welcome To Presidency College</h1>
+    </div>
+    <div class="container">
+            <fieldset>
+                <h1 class="head">Login</h1>    
+                <br>
+                <label for="email" class="email">Email Address: &ensp;&ensp;&ensp;<input type="email" name="email" id="email" placeholder="Your Email-Address. eg: sample@gmail.com" width="100px" size="50px">
+                <br>
+                <br>
+                <label for="password" class="password">Password: &ensp; &ensp; &ensp;&ensp;&ensp;&ensp;<input type="password" name="password" id="password" placeholder="Your Password. eg: XXXXXX" width="100px" size="50px"> </label>
+               <br>
+               <br>
+                <input type="button" value="Log In">
+                <br>  
+                <p class="create">If you new here, <a href="">Create Your Account</a></p>
+            </fieldset>
+            <div class="icons">
+                <!-- <img src="" alt=""> -->
+            </div>
+            <div class="foot">
+                <footer>
+                    <p>
+                        Copyright &copy; Divesh Mandhyan (D Technologies) 2020-2021
+                    </p>
+                </footer>
+            </div>
+    </div>
+</body>
+</html>
